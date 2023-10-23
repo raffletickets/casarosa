@@ -1,423 +1,357 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-  <!-- ===============================================-->
-  <!--    Document Title-->
-  <!-- ===============================================-->
-  <title> CASA ROSA</title>
-
-
-  <!-- ===============================================-->
-  <!--    Favicons-->
-  <!-- ===============================================-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-  <link rel="manifest" href="assets/img/favicons/manifest.json">
-  <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
-  <meta name="theme-color" content="#ffffff">
-
-
-  <!-- ===============================================-->
-  <!--    Stylesheets-->
-  <!-- ===============================================-->
-  <link href="assets/css/theme.css" rel="stylesheet" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventou</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
-  <!-- ===============================================-->
-  <!--    Main Content-->
-  <!-- ===============================================-->
-  <main class="main" id="top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
-      data-navbar-on-scroll="data-navbar-on-scroll">
-      <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo.webp" height="100"
-            alt="logo" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"> </span></button>
-        <!-- <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
-                href="#service">Service</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
-                href="#destination">Destination</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
-                href="#booking">Booking</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
-                href="#testimonial">Testimonial</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#!">Login</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
-                href="#!">Sign Up</a></li>
-            <li class="nav-item dropdown px-3 px-lg-0"> <a
-                class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium" href="#"
-                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
-              <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;"
-                aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">EN</a></li>
-                <li><a class="dropdown-item" href="#!">BN</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div> -->
-      </div>
-    </nav>
-    <section style="padding-top: 7rem;">
-      <div class="bg-holder" style="background-image:url(assets/img/hero/hero-bg.svg);">
-      </div>
-      <!--/.bg-holder-->
-
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end"><img class="pt-7 pt-md-0 hero-img"
-              src="assets/img/newicon/8615471.png" alt="hero-header" /></div>
-          <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
-            <!-- <h4 class="fw-bold text-danger mb-3">Best Destinations around the world</h4> -->
-            <h1 class="hero-title">Olá! Somos a Fundação Casa Rosa</h1>
-            <p class="mb-4 fw-medium">Trata-se de uma associação onde se oferta abrigo temporário a população LGBTQ+
-              adulta no intuito de emancipar estes indivíduos e promover socialmente juntamente com empresas, ONG’s,
-              diferentes esferas de governo local e voluntários. Este serviço a comunidade é gratuito e de qualidade.
-              Além do acolhimento para pessoas LGBTQ+. A Casa Rosa é também um centro cultural que realiza cursos,
-              oficinas, apresentações e feiras diversas.</p>
-            <div class="text-center text-md-start"> <a
-                class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="#!"
-                role="button">Doar agora!</a>
-              <div class="w-100 d-block d-md-none"></div>
-              <!-- <a href="#!" role="button" data-bs-toggle="modal" data-bs-target="#popupVideo"><span
-                  class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"> <img
-                    src="assets/img/hero/play.svg" width="15" alt="paly" /></span></a> -->
-              <!-- <span class="fw-medium">Play
-                Demo</span> -->
-              <div class="modal fade" id="popupVideo" tabindex="-1" aria-labelledby="popupVideo" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content">
-                    <iframe class="rounded" style="width:100%;max-height:500px;" height="500px"
-                      src="https://www.youtube.com/embed/_lhdhL4UDIo" title="YouTube video player"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
-                  </div>
+    <div class="bg-frist-section">
+        <div class="container">
+            <section class="frist-section">
+                <div class="logo">
+                    <img src="assets/logo/logo.png" alt="">
                 </div>
-              </div>
-            </div>
-          </div>
+
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/fristSection/imagem pg 2.png" alt="">
+
+                    </div>
+                    <div class="infos">
+                        <h1>PRAZER, INVENTOU</h1>
+                        <p>
+                            Cansados de acompanhar a frustração e a insegurança das pessoas com problemas relacionados à
+                            revenda de ingressos, nós desenvolvemos uma solução.
+                        </p>
+                        <p>Com a Iventou, todos se beneficiam. As ticketeiras, as produtoras e as pessoas que querem
+                            comprar ou revender os ingressos.</p>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="subtitle">
+                    <span class="title-notes"> Nós trazemos a</span> desburocratização <span class="title-notes">,
+                        a</span>
+                    segurança <span class="title-notes">e a</span> velocidade <span class="title-notes">que
+                        todos os envolvidos buscam.</span>
+                </div>
+                <div class="footer-frist-section">
+                    <button class="btn frist-button"><a href="mailto:joao@quartacasa.com.br">Entrar em
+                            contato</a></button>
+
+                </div>
+            </section>
         </div>
-      </div>
+
+
+        </main>
+    </div>
+
+    <section class="secound-section">
+        <div class="container">
+            <div class="title">
+                <h1> Chega disso, né?</h1>
+            </div>
+            <div class="bar"></div>
+            <div class="subtitle-secound-section">
+                FRAUDES NAS REVENDAS
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/secoundSection/image 7.png" alt="">
+                    </div>
+                    <div class="description">
+                        Influenciadora digital de São Paulo, Juliana Santana expôs um golpista em suas redes sociais. De
+                        acordo com ela, o homem se passa por funcionário de agências de marketing responsáveis pelo Rock
+                        in Rio...
+                    </div>
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://www.em.com.br/app/noticia/nacional/2022/08/31/interna_nacional,1390314/influenciadora-denuncia-golpista-que-fraudava-ingressos-do-rock-in-rio.shtml">Ler
+                            mais</a>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/secoundSection/2.png" alt="">
+                    </div>
+                    <div class="description">
+                        A jovem alagoana Mariana Miranda, 23 anos, tornou-se um fenômeno na internet após compartilhar
+                        um vídeo no TikTok sobre sua trágica experiência de cair em um golpe ao tentar comprar ingressos
+                        para a The Eras Tour...
+                    </div>
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://g1.globo.com/pe/pernambuco/carnaval/2023/noticia/2023/02/16/esquema-de-falsificacao-de-ingressos-para-previas-e-descoberto-e-pulseiras-de-carnaval-sao-apreendidas-no-recife.ghtml">Ler
+                            mais</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/secoundSection/3.png" alt="">
+                    </div>
+                    <div class="description">
+                        Com a Copa do Mundo de 2018 se aproximando, cibercriminosos estão aproveitando o evento para
+                        aplicar golpes na internet. Especialistas de segurança da Kaspersky Lab identificaram e-mails de
+                        phishing que estão sendo aplicados...
+                    </div>
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://olhardigital.com.br/2018/05/29/seguranca/golpes-fazem-torcedores-comprarem-ingressos-falsos-para-copa-do-mundo/">Ler
+                            mais</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/secoundSection/4.png" alt="">
+                    </div>
+                    <div class="description">
+                        Com a Copa do Mundo de 2018 se aproximando, cibercriminosos estão aproveitando o evento para
+                        aplicar golpes na internet. Especialistas de segurança da Kaspersky Lab identificaram e-mails de
+                        phishing que estão sendo aplicados...
+                    </div>
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://www.em.com.br/app/noticia/cultura/2023/06/29/interna_cultura,1514116/brasileira-cai-em-golpe-de-ingresso-falso-para-show-de-taylor-swift.shtml">Ler
+                            mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="third-section">
+        <div class="container">
+            <div class="title">
+                <h1> RECLAMAÇÕES DE REVENDAS EM SITES PARALELOS</h1>
+            </div>
+
+            <div class="complaint frist-row-complaint">
+                <div class="img">
+                    <img src="assets/complaint/1.png" alt="">
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://www.reclameaqui.com.br/viagogo/vendi-o-ingresso-de-um-show-e-nao-recebi-meu-pagamento_vTIUnv9BQR38-kfd/">Ler
+                            mais</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="assets/complaint/2.png" alt="">
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://www.reclameaqui.com.br/viagogo/ingresso-emitidos-errado_dx1wikDaxKOccpXT/">Ler
+                            mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="complaint">
+                <div class="img">
+                    <img src="assets/complaint/3.png" alt="">
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://www.reclameaqui.com.br/viagogo/paguei-o-ingresso-e-eles-me-bloquearam-em-todas-as-redes-sociais_cpolEMDPi4w8lMmU/">Ler
+                            mais</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="assets/complaint/4.png" alt="">
+                    <div class="footer">
+                        <a target="_blank"
+                            href="https://www.reclameaqui.com.br/ticketswap-brasil-servicos-de-ingressos/compramos-uma-meia-entrada-que-na-verdade-era-meio-idoso-sem-estar-dito_udYB_A3WTKprmGk5/">Ler
+                            mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="pt-5 pt-md-9" id="service">
+    <section class="fourth-section">
+        <div class="container">
+            <div class="title">
+                <h1> NO CENÁRIO ATUAL DE
+                    REVENDA DE INGRESSOS</h1>
 
-      <div class="container">
-        <div class="position-absolute z-index--1 end-0 d-none d-lg-block"><img src="assets/img/category/shape.svg"
-            style="max-width: 200px" alt="service" /></div>
-        <div class="mb-7 text-center">
-          <h5 class="text-secondary">Nossos </h5>
-          <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Cursos </h3>
+            </div>
+            <div class="bar"></div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="title-card">
+                        QUEM COMPRA
+                    </div>
+                    <p>Corre o risco de sofrer <span class="title-notes">golpe/fraude</span></p>
+                    <p>Fica <span class="title-notes">inseguro</span> sobre a sua entrada no evento</p>
+                </div>
+
+                <div class="card">
+                    <div class="title-card">
+                        Ticketeiras E PRODUTORAS
+                    </div>
+
+                    <p><span class="title-notes">Não monetizam</span> a revenda</p>
+
+                    <p><span class="title-notes">Não coletam</span> os dados das revendas</p>
+
+                    <p>Adquirem cada vez mais<span class="title-notes"> detratores da marca</span></p>
+
+                    <p>Enfrentam <span class="title-notes">riscos jurídicos</span></p>
+
+                </div>
+
+                <div class="card">
+                    <div class="title-card">
+                        quem revende
+                    </div>
+
+                    <p>Passa por <span class="title-notes">diversas negociações</span></p>
+
+                    <p>Corre o risco de sofrer<span class="title-notes">golpe/fraude</span></p>
+
+                    <p>Disponibiliza dados sensíveis para estranhos</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 mb-6">
-            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/newicon/costura.png" width="75" alt="Service" />
-                <h4 class="mb-3 mt-3">CORTE E COSTURA</h4>
-                <p class="mb-0 fw-medium">O curso de corte e costura é uma excelente oportunidade para aprender uma
-                  habilidade valiosa e iniciar uma carreira na indústria da moda.
+    </section>
 
+
+    <section class="fifth-section">
+        <div class="container">
+            <div class="title">
+                <h1>Como funciona nossa solução</h1>
+
+            </div>
+            <div class="bar"></div>
+
+            <div class="content">
+                <div class="img">
+                    <img src="assets/fifthSection/Group 8.png" alt="">
+                </div>
+                <div class="description">
+                    <p>A partir da integração em nosso módulo, as ticketeiras que comercializam os ingressos primários
+                        poderão ofertar a o eração de revenda destes — o <span class="title-notes">valor</span> e o
+                        <span class="title-notes">momento</span> da revenda é <span class="title-notes">administrado
+                            pela própria ticketeira</span>.
+                    </p>
+                    <p> Essa revenda entre os clientes finais já acontece e não vai deixar de existir. O ponto é que, no
+                        atual cenário, todos os envolvidos ficam inseguros e insatisfeitos.
+                    </p>
+                    <p>
+                        Com a Iventou, os clientes finais irão comprar ou revender os ingressos <span
+                            class="title-notes">dentro das ticketeiras</span>,
+                        sob a <span class="title-notes">proteção</span> e <span class="title-notes">validação</span>
+                        destas.</p>
+
+                    <button class="btn"> <a href="mailto:joao@quartacasa.com.br">Entrar em contato</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sixth-section">
+        <div class="container">
+            <div class="title">
+                <h1>Benefícios</h1>
+            </div>
+
+            <div class="content">
+                <div class="layer">
+                    <h1>Ticketeiras e produtoras</h1>
+                    <p>Monetizam a revenda, ou seja, <b>ganham mais de uma vez</b> no mesmo ingresso vendido</p>
+                    <p>Administram por <b>quanto</b> esse ingresso pode ser revendido</p>
+                    <p>Gerenciam <b>quando</b> esse ingresso será revendido</p>
+                    <p> <b>Absorvem os dados</b> do comportamento da revenda, para trazer toda a <b>segurança interna
+                            contra
+                            cambistas</b> e também para <b>melhorar a experiência da entrega</b> dos seus produtos e
+                        serviços aos seus
+                        clientes finais</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="seven-section">
+        <div class="content">
+            <div class="layer">
+                <h1>Compradores e Revendedores</h1>
+                <p><b>Acabam com a insegurança</b> da revenda por vias paralelas.</p>
+                <p> <b>Acabam com a burocracia</b> para comprar ou revender. Com um clique, a operação está validada. 
                 </p>
-              </div>
+                <p>Não precisam fornecer dados sensíveis para estranhos.</p>
+                <p><b>Acabam com a incerteza </b> da entrada nos eventos. </p>
             </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-6">
-            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/newicon/audio.png" width="75" alt="Service" />
-                <h4 class="mb-3  mt-3">SOM E LUZ CÊNICA</h4>
-                <p class="mb-0 fw-medium">Uma oportunidade única para aprender habilidades valiosas na indústria do
-                  entretenimento e eventos.</p>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-lg-3 col-sm-6 mb-6">
-            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/category/icon3.png" width="75" alt="Service" />
-                <h4 class="mb-3">Local Events</h4>
-                <p class="mb-0 fw-medium">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="col-lg-3 col-sm-6 mb-6">
-            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/category/icon4.png" width="75" alt="Service" />
-                <h4 class="mb-3">Customization</h4>
-                <p class="mb-0 fw-medium">We deliver outsourced aviation services for military customers</p>
-              </div>
-            </div>
-          </div> -->
         </div>
-      </div><!-- end of .container-->
-
+        </div>
     </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
 
+    <div class="eighth-section">
+        <div class="header">
+            <div class="line"></div>
+            <div class="title">
+                <h1>Como fazer parte</h1>
+            </div>
+            <div class="line"></div>
 
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="pt-5" id="destination">
-
-      <div class="container">
-        <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"><img
-            src="assets/img/dest/shape.svg" alt="destination" /></div>
-        <div class="mb-7 text-center">
-          <h5 class="text-secondary">CONHEÇA</h5>
-          <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize"> NOSSOS PROFESSORES</h3>
-          <h5>Nossos professores são altamente qualificados e possuem uma ampla gama de habilidades. Além disso, eles
-            são comprometidos em criar um ambiente acolhedor e inclusivo para todos os nossos alunos, independente da
-            identidade de gênero ou orientação sexual.</h5>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/newicon/anna.webp"
-                alt="Rome, Italty" />
-              <div class="card-body py-4 px-3">
-                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                  <h5 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
-                      href="#!">
-                      Profissional de Luz Cênica</a></h5>
-                </div>
-                <div class="">
-                  <h4>Anna Moura</h4>
 
-                  Artiste, musiciste e especialiste em iluminação cênica, realizou criação, montagem e operação de luz
-                  cênica para diversos projetos como Enquanto Chove no Mundo, Veredas da Salvação, A Rosa e o Vento,
-                  Viajantes do Tempo, Mostra Sêla – Festival Bananada, dentre outros.
+        <div class="content-eighth">
+            <div class="cart-circle">
+                <div class="img"><img src="assets/eighthSection/Ellipse 1.png" alt=""></div>
+                <div class="footer">
+                    Ticketeira realiza a integração na API da Iventou
                 </div>
-
-              </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/newicon/mar.webp"
-                alt="Rome, Italty" />
-              <div class="card-body py-4 px-3">
-                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                  <h5 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
-                      href="#!">
 
-                      Profissional de Técnica de Som</a></h5>
+            <div class="cart-circle">
+                <div class="img"><img src="assets/eighthSection/Ellipse 2.png" alt=""></div>
+                <div class="footer">
+                    Ajustes da interface
+                    do módulo Iventou na Ticketeira
                 </div>
-                <div class="">
-                  <h4>Mar Nóbrega</h4>
-
-                  Mar Nóbrega começou seus estudos em técnica de som de forma autodidata em 2012. Se especializou em
-                  matérias da UNB e cursos da IATEC pelo LABFAZ. Em 2018 iniciou seus estudos em Produção Musical,
-                  dentro da Universidade de Brasília, na matéria Técnica de áudio e gravação. Em 2021 se aprofundou nos
-                  estudos através do Portal do Produtor e do curso da IATEC para gravação em estudo.
-                </div>
-
-              </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/newicon/suzy.webp"
-                alt="Rome, Italty" />
-              <div class="card-body py-4 px-3">
-                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                  <h5 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
-                      href="#!">
-                      Profissional de Corte e Costura</a></h5>
-                </div>
-                <div class="">
-                  <h4>Suzy Pereira Cunha</h4>
 
-                  Designer de Moda, artesã, contabilista, professora de costura e modelagem, atua na área do vestuário
-                  desde 2012, participando de diversos e importantes projetos, passando por Design de bonecas, Programa
-                  Social do Governo do Distrito Federal – Fábrica Social, Produção de Máscaras para o GDF, design de
-                  Moda com foco na Moda Circular e Upcycling, dentre tantos outros projetos.
-                </div>
 
-              </div>
+            <div class="cart-circle">
+                <div class="img"><img src="assets/eighthSection/Ellipse 3.png" alt=""></div>
+                <div class="footer">
+                    Configuração do evento e ingresso
+                </div>
             </div>
-          </div>
+
+            <div class="cart-circle">
+                <div class="img"><img src="assets/eighthSection/Ellipse 4.png" alt=""></div>
+                <div class="footer">
+                    Pronto, os ingressos já podem ser comercializados.
+                </div>
+
+            </div>
         </div>
-      </div><!-- end of .container-->
-
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
 
 
-
-
-
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-    <div class="position-relative pt-9 pt-lg-8 pb-6 pb-lg-8">
-      <div class="container d-flex justify-content-center">
-        <img class="img-fluid" src="assets/img/newicon/eeasd123.webp" alt="" />
-
-      </div>
     </div>
 
 
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="pt-6">
-
-      <div class="container">
-        <div class="py-8 px-5 position-relative text-center"
-          style="background-color: rgba(223, 215, 249, 0.199);border-radius: 129px 20px 20px 20px;">
-          <div class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3"> <img
-              src="assets/img/cta/send.png" style="max-width:70px;" alt="send icon" /></div>
-          <div class="position-absolute end-0 top-0 z-index--1"> <img src="assets/img/cta/shape-bg2.png" width="264"
-              alt="cta shape" /></div>
-          <div class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"> <img
-              src="assets/img/cta/shape-bg1.png" style="max-width: 340px;" alt="cta shape" /></div>
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10">
-              <h2 class="text-secondary lh-1-7 mb-7">Preciso de apoio!</h2>
-              <form class="row g-3 align-items-center w-lg-75 mx-auto">
-                <div class="col-sm">
-                  <div class="input-group-icon">
-                    <input class="form-control form-little-squirrel-control" id="nomeForm" type="text"
-                      placeholder="Nome" aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg"
-                      width="17" alt="mail" />
-                  </div>
-                  <div class="input-group-icon mt-2">
-                    <input class="form-control form-little-squirrel-control" type="tel" id="celularForm"
-                      placeholder="Celular" aria-label="email" /><img class="input-box-icon"
-                      src="assets/img/cta/mail.svg" width="17" alt="mail" />
-                  </div>
-                  <div class="input-group-icon mt-2">
-                    <input class="form-control form-little-squirrel-control" id="emailForm" type="email"
-                      placeholder="E-mail" aria-label="email" /><img class="input-box-icon"
-                      src="assets/img/cta/mail.svg" width="17" alt="mail" />
-                  </div>
-                  <div class="input-group-icon mt-2">
-                    <textarea class="form-control form-little-squirrel-control" id="descricaoForm"
-                      placeholder="Conte mais sobre." name="" id="" cols="30" rows="10"></textarea>
-                  </div>
-                </div>
-                <div class="col-sm-auto">
-                  <button id="enviarRelatorio" onclick="sendEmail()"
-                    class="btn btn-danger orange-gradient-btn fs--1">Enviar</button>
-                </div>
-              </form>
-            </div>
-          </div>
+    <footer>
+        <div class="line"></div>
+        <div class="button">
+            <button class="btn"><a href="mailto:joao@quartacasa.com.br">Entrar em
+                contato</a></button>
+            <!-- <button class="btn">Entrar em contato</button> -->
         </div>
-      </div><!-- end of .container-->
-
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-  </main>
-  <!-- ===============================================-->
-  <!--    End of Main Content-->
-  <!-- ===============================================-->
-
-
-
-
-  <!-- ===============================================-->
-  <!--    JavaScripts-->
-  <!-- ===============================================-->
-  <script src="vendors/@popperjs/popper.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.min.js"></script>
-  <script src="vendors/is/is.min.js"></script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-  <script src="vendors/fontawesome/all.min.js"></script>
-  <script src="assets/js/theme.js"></script>
-
-  <script type="text/javascript">
-    function sendEmail() {
-
-
-      // <div class="input-group-icon">
-      //               <input class="form-control form-little-squirrel-control" id="nomeForm" type="email" placeholder="Nome"
-      //                 aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17"
-      //                 alt="mail" />
-      //             </div>
-      //             <div class="input-group-icon mt-2">
-      //               <input class="form-control form-little-squirrel-control" type="email" id="celularForm" placeholder="Celular"
-      //                 aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17"
-      //                 alt="mail" />
-      //             </div>
-      //             <div class="input-group-icon mt-2">
-      //               <input class="form-control form-little-squirrel-control" id="emailForm"  type="email" placeholder="E-mail"
-      //                 aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17"
-      //                 alt="mail" />
-      //             </div>
-      //             <div class="input-group-icon mt-2">
-      //               <textarea class="form-control form-little-squirrel-control"  id="descricaoForm" placeholder="Conte mais sobre." name=""
-      //                 id="" cols="30" rows="10"></textarea>
-      //             </div>
-
-
-      const nomeForm = document.getElementById('nomeForm').value;
-      const celularForm = document.getElementById('celularForm').value;
-      const emailForm = document.getElementById('emailForm').value;
-      const descricaoForm = document.getElementById('descricaoForm').value;
-
-
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "cadastro.casarosa@gmail.com",
-        Password: "cadastrocasarosa123",
-        To: `hugoricchino1@gmail.com`,
-        From: `${document.getElementById('emailForm').value}`,
-        Subject: "Preciso de ajuda site",
-        Body: `
-        nome: ${nomeForm}
-        celular: ${celularForm}
-        Email: ${emailForm}
-        Descrição: ${descricaoForm}
-
-        `,
-      })
-        .then(function (message) {
-          console.log(message)
-          alert("Solicitação foi enviada com sucesso!")
-        });
-    }
-  </script>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
-    rel="stylesheet">
+        <div class="line"></div>
+    </footer>
 </body>
 
 </html>
