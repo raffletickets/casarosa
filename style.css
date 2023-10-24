@@ -248,7 +248,6 @@ h1 {
 
 .third-section .complaint .img {
     margin-right: 37px;
-
 }
 
 .third-section .complaint .img .footer a {
@@ -694,6 +693,7 @@ footer .line {
 
     .third-section .complaint .img {
         margin-right: 0px !important;
+        margin-bottom: 22px ;
     }
 
     .cards {
@@ -866,5 +866,9 @@ footer .line {
     .fourth-section .cards .card p {
         font-size: 20px;
     }
-
+    .third-section .complaint{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
 }
