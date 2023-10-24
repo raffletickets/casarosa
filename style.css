@@ -858,5 +858,13 @@ footer .line {
         font-size: 20px;
         padding: 40px;
     }
+    
+    .fourth-section .cards .card .title-card{
+        font-size: 20px;
+    }
+
+    .fourth-section .cards .card p {
+        font-size: 20px;
+    }
 
 }
