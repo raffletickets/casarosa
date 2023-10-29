@@ -1,357 +1,785 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventou</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===============================================-->
+  <!--    Document Title-->
+  <!-- ===============================================-->
+  <title>Impetus Energy</title>
+
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
+  <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- ===============================================-->
+  <!--    Stylesheets-->
+  <!-- ===============================================-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link href="vendors/prism/prism.css" rel="stylesheet">
+  <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/theme.min.css" rel="stylesheet" />
+  <link href="assets/css/user.min.css" rel="stylesheet" />
 </head>
 
 <body>
-
-    <div class="bg-frist-section">
-        <div class="container">
-            <section class="frist-section">
-                <div class="logo">
-                    <img src="assets/logo/logo.png" alt="">
-                </div>
-
-                <div class="header">
-                    <div class="img">
-                        <img src="assets/fristSection/imagem pg 2.png" alt="">
-
-                    </div>
-                    <div class="infos">
-                        <h1>PRAZER, INVENTOU</h1>
-                        <p>
-                            Cansados de acompanhar a frustração e a insegurança das pessoas com problemas relacionados à
-                            revenda de ingressos, nós desenvolvemos uma solução.
-                        </p>
-                        <p>Com a Iventou, todos se beneficiam. As ticketeiras, as produtoras e as pessoas que querem
-                            comprar ou revender os ingressos.</p>
-                        <div class="bar"></div>
-                    </div>
-                </div>
-                <div class="subtitle">
-                    <span class="title-notes"> Nós trazemos a</span> desburocratização <span class="title-notes">,
-                        a</span>
-                    segurança <span class="title-notes">e a</span> velocidade <span class="title-notes">que
-                        todos os envolvidos buscam.</span>
-                </div>
-                <div class="footer-frist-section">
-                    <button class="btn frist-button"><a href="mailto:joao@quartacasa.com.br">Entrar em
-                            contato</a></button>
-
-                </div>
-            </section>
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main" id="top">
+    <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-dark" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-white fs-3"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="blogs.html">Blogs</a></li>
+              <li class="nav-item mt-2 mt-lg-0"><a class="nav-link btn btn-light text-black w-md-25 w-50 w-lg-100" aria-current="page" href="#">Log In</a></li>
+            </ul>
+          </div>
         </div>
+      </nav> -->
+    <div class="bg-dark"><img class="img-fluid position-absolute end-0" src="assets/img/hero/hero-bg.png" alt="" />
 
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section>
+        <div class="container">
+          <img src="./assets/img/logos/logo.png" class="logo-impetus img-fluid" alt="">
+          <div class="row align-items-start py-lg-8 py-6">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="text-white fs-5 fs-xl-6">Transforme energia em <b>Lucro:</b> <b>até</b> <span
+                  class="important"> 2% de rentabilidade mensal</span> <b>com Energia Solar!</b></h1>
+              <p class="text-white py-lg-3 py-2">Descubra como ter uma
+                renda pássiva mensal
+                por até 30 anos</p>
+              <div class="d-sm-flex align-items-center gap-3"><button
+                  class="btn btn-success text-black mb-3  w-75">RENTABILIZE AGORA!</button></div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"><img class="img-fluid"
+                src="assets/img/hero/hero-graphics.png" alt="" /></div>
+            <!-- <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"><img class="img-fluid" src="assets/img/hero/header.png" alt="" /></div> -->
+          </div>
+          <div class="swiper">
+            <div class="swiper-container swiper-shadow swiper-theme"
+              data-swiper='{"slidesPerView":2,"breakpoints":{"640":{"slidesPerView":2,"spaceBetween":20},"768":{"slidesPerView":4,"spaceBetween":40},"992":{"slidesPerView":5,"spaceBetween":40},"1024":{"slidesPerView":4,"spaceBetween":50},"1025":{"slidesPerView":6,"spaceBetween":50}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"freeMode":true,"autoplay":{"delay":2500,"disableOnInteraction":false}}'>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide text-center"><img src="assets/img/logos/1.png" alt="" /></div>
+                <div class="swiper-slide text-center"><img src="assets/img/logos/2.png" alt="" /></div>
+                <div class="swiper-slide text-center"><img src="assets/img/logos/3.png" alt="" /></div>
+                
+                
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
 
-        </main>
     </div>
 
-    <section class="secound-section">
-        <div class="container">
-            <div class="title">
-                <h1> Chega disso, né?</h1>
-            </div>
-            <div class="bar"></div>
-            <div class="subtitle-secound-section">
-                FRAUDES NAS REVENDAS
-            </div>
 
-            <div class="cards">
-                <div class="card">
-                    <div class="img">
-                        <img src="assets/secoundSection/image 7.png" alt="">
-                    </div>
-                    <div class="description">
-                        Influenciadora digital de São Paulo, Juliana Santana expôs um golpista em suas redes sociais. De
-                        acordo com ela, o homem se passa por funcionário de agências de marketing responsáveis pelo Rock
-                        in Rio...
-                    </div>
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://www.em.com.br/app/noticia/nacional/2022/08/31/interna_nacional,1390314/influenciadora-denuncia-golpista-que-fraudava-ingressos-do-rock-in-rio.shtml">Ler
-                            mais</a>
 
-                    </div>
-                </div>
+    <section>
+      <div class="container">
 
-                <div class="card">
-                    <div class="img">
-                        <img src="assets/secoundSection/2.png" alt="">
-                    </div>
-                    <div class="description">
-                        A jovem alagoana Mariana Miranda, 23 anos, tornou-se um fenômeno na internet após compartilhar
-                        um vídeo no TikTok sobre sua trágica experiência de cair em um golpe ao tentar comprar ingressos
-                        para a The Eras Tour...
-                    </div>
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://g1.globo.com/pe/pernambuco/carnaval/2023/noticia/2023/02/16/esquema-de-falsificacao-de-ingressos-para-previas-e-descoberto-e-pulseiras-de-carnaval-sao-apreendidas-no-recife.ghtml">Ler
-                            mais</a>
-                    </div>
-                </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start p-5"><img class="img-fluid"
+              src="assets/img/newimgs/energymobi-home2021.png" alt="" /></div>
+          <div class="col-lg-6">
+            <h1 class="fs-xl-5 fs-lg-4 fs-3">Como funciona uma <span class="important">usina solar</span>. </h1>
+            <ul class="list-unstyled my-xl-5 my-3">
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i
+                  class="fa-solid fa-solar-panel fs-4"></i><span><b> <span class="important">Instalação</span> </b>: A
+                  Usina fotovoltaica, composta por módulos solares, é instalada em solo ou telhado.</span></li>
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i
+                  class="fa-solid fa-sun fs-4"></i><span><b> <span class="important">Captação e Conversão</span>:</b> Os
+                  módulos captam a irradiação solar e a convertem em eletricidade através do inversor.</span></li>
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i
+                  class="fa-solid fs-4 fa-diagram-project"></i><span><b><span class="important">Conexão à
+                      Rede:</span></b> A energia gerada é injetada na rede de distribuição, pronta para consumo ou
+                  venda.</span></li>
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i
+                  class="fa-solid fs-4 fa-money-bill-trend-up"></i><span><b><span class="important">Retorno
+                      Financeiro:</span></b> A energia vendida gera receita compensada ao proprietário da Usina.</span>
+              </li>
 
-                <div class="card">
-                    <div class="img">
-                        <img src="assets/secoundSection/3.png" alt="">
-                    </div>
-                    <div class="description">
-                        Com a Copa do Mundo de 2018 se aproximando, cibercriminosos estão aproveitando o evento para
-                        aplicar golpes na internet. Especialistas de segurança da Kaspersky Lab identificaram e-mails de
-                        phishing que estão sendo aplicados...
-                    </div>
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://olhardigital.com.br/2018/05/29/seguranca/golpes-fazem-torcedores-comprarem-ingressos-falsos-para-copa-do-mundo/">Ler
-                            mais</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="img">
-                        <img src="assets/secoundSection/4.png" alt="">
-                    </div>
-                    <div class="description">
-                        Com a Copa do Mundo de 2018 se aproximando, cibercriminosos estão aproveitando o evento para
-                        aplicar golpes na internet. Especialistas de segurança da Kaspersky Lab identificaram e-mails de
-                        phishing que estão sendo aplicados...
-                    </div>
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://www.em.com.br/app/noticia/cultura/2023/06/29/interna_cultura,1514116/brasileira-cai-em-golpe-de-ingresso-falso-para-show-de-taylor-swift.shtml">Ler
-                            mais</a>
-                    </div>
-                </div>
-            </div>
+            </ul>
+          </div>
         </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="bg-dark ">
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="fs-xl-5 fs-lg-4 fs-3 text-white">Conheça seu próximo projeto de <span
+                class="important">investimento</span>
+            </h1>
+            <ul class="list-unstyled my-xl-5 my-3">
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-white"><i
+                  class="fa-solid fa-gauge-high fs-4"></i><span>Potência de <span class="important">500 kW - 700
+                    kWp</span> </span></li>
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-white"><i
+                  class="fa-solid fa-lightbulb fs-4"></i><span>Geração média de <span class="important">91.000
+                    kWh/mês</span> </span></li>
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-white"><i
+                  class="fa-solid fs-4 fa-map-location-dot"></i><span>Localizado estrategicamente em Paracatu - MG e um
+                  retorno projetado que vai <span class="important">surpreender você</span>. </span></li>
+              <li class="fs-2 my-4 d-flex align-items-center gap-3 text-white"><i
+                  class="fa-solid fs-4 fa-coins"></i><span>Capex da Usina: <span class="important">R$
+                    2.700.000,00</span>. </span></li>
+            </ul><button class="btn btn-success">VER DETALHES TÉCNICOS</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <img class="img-fluid rounded mb-5"
+              src="assets/img/newimgs/render1.jpg" alt="" />
+            </div>
+            <div class="row">
+              <img class="img-fluid rounded"
+              src="assets/img/newimgs/render2.jpg" alt="" />
+            </div>
+            </div>
+
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+
+    <section class="slide-impetus">
+      <div class="container">
+        <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">Por que <span class="important">INVESTIR</span> neste
+          projeto?</h2>
+        <div class="row gx-xl-7 mt-5">
+          <div class="col-md-3 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100"
+              src="assets/img/newimgs/payback.jpeg" alt="" />
+            <h4 class="mt-3 my-1">Payback simples estimado em 4.7 anos</h4>
+            <p class="fs-1 mb-0">Recupere seu investimento rapidamente, com retorno previsto em menos de 5 anos.</p>
+          </div>
+          <div class="col-md-3 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100"
+              src="assets/img/newimgs/123asddasd212.png" alt="" />
+            <h4 class="mt-3 my-1">Transfira cotas durante a vida util do projeto (25 a 30 anos)</h4>
+            <p class="fs-1 mb-0">Invista com liberdade: transfira suas cotas a qualquer momento durante a vida útil do
+              projeto.</p>
+          </div>
+          <div class="col-md-3 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100"
+              src="assets/img/newimgs/321.jpg" alt="" />
+            <h4 class="mt-3 my-1">Redução de impacto ambiental</h4>
+            <p class="fs-1 mb-0">Investindo neste projeto da Impetus Energy, você apoia uma iniciativa que economiza
+              água, corta emissões de CO2 e protege ecossistemas. É mais do que energia; é um compromisso com um futuro
+              mais limpo e sustentável </p>
+          </div>
+          <div class="col-md-3 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100"
+              src="assets/img/newimgs/lion-g3c84b79b0_640.webp" alt="" />
+            <h4 class="mt-3 my-1">Rendimento com isenção de IR</h4>
+            <p class="fs-1 mb-0">Rendimentos via SPE são tratados como distribuição de lucros, isentos de IR no Brasil
+              seg﻿undo a Legislação Tributária Brasileira</p>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+
+    <section class="bg-dark">
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start p-5 mb-5"><img class="img-fluid rounded-2"
+              src="assets/img/newimgs/evolucao.png" alt="" /></div>
+          <div class="col-lg-6">
+            <h1 class="fs-xl-5 fs-lg-4 fs-3 text-white mb-5">Faça parte de um mercado em <span
+                class="important">expansão</span>. </h1>
+            <h5 class="text-white fs-lg-3 fs-md-3 fs-3 mb-5">A matriz elétrica brasileira possui hoje <span
+                class="important"> 84% de capacidade de geração de energia renovável</span>, enquanto o mundo possui uma
+              média de apenas 27%.</h5>
+
+            <h5 class="text-white fs-lg-3 fs-md-3 fs-3 mb-5"> A <span class="important"> participação </span>da energia
+              solar na matriz elétrica brasileira <span class="important"> aumentou de 1,4%, em 2019, para 6,9%, em
+                2021</span>.</h5>
+
+            <h5 class="text-white fs-lg-3 fs-md-3 fs-3"> Continua em <span class="important"> plena aceleração de
+                crescimento</span>, principalmente, no estado de São Paulo e Minas Gerais.</h5>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pt-8 pt-lg-0 mt-6">
+      <div class="container">
+        <div class="d-flex flex-column-reverse flex-lg-row">
+          <div class="col-lg-6">
+            <h1 class="fs-lg-4 fs-md-3 fs-xl-5 mb-5"> Sua contribuição para o <span class="important">meio
+                ambiente</span></h1>
+            <ul class="list-unstyled">
+              <li class="fs-2 shadow-sm offer-list-item">
+                <span>
+                  <span class="important">Redução de Carbono</span>
+                  <p>A energia solar diminui a dependência de combustíveis fósseis, reduzindo significativamente as
+                    emissões de CO2. </p>
+                  <p>Cada investimento em solar contribui diretamente para um ar mais limpo e combate ao aquecimento
+                    global.</p>
+                </span>
+              </li>
+
+              <li class="fs-2 shadow-sm offer-list-item">
+                <span>
+                  <span class="important">Economia de Água</span>
+                  <p>Diferente das hidrelétricas, que impactam ecossistemas aquáticos, a energia solar produz
+                    eletricidade sem consumir água. </p>
+                  <p>
+                    Isso ajuda a preservar os recursos hídricos vitais do Brasil, especialmente em tempos de escassez.
+                  </p>
+                </span>
+              </li>
+
+
+              <li class="fs-2 shadow-sm offer-list-item">
+                <span>
+                  <span class="important">Proteção de Ecossistemas</span>
+                  <p>A energia solar minimiza a degradação de ecossistemas, evitando os impactos ambientais de grandes
+                    usinas, como as hidrelétricas. </p>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="natural col-lg-6 text-center text-lg-center align-content-center d-flex justify-content-center flex-column align-content-center">
+            <img class="img-fluid " src="assets/img/newimgs/ioj2i222.png" alt="" />
+            <div class="text-center texto-natural w-70"> <span class="important">Impetus e você</span> priorizando
+              investimentos de <span class="important">alta rentabilidade</span> alicerçados na <span
+                class="important">sustentabilidade ambiental</span> </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+    <section class="bg-dark">
+      <div class="container">
+        <div class="row align-items-center d-flex justify-content-center">
+          <h1 class="fs-xl-5 fs-lg-4 fs-3 text-white mb-5">Seu <span class="important">investimento</span> impacta em...
+          </h1>
+          <div class="col-lg-12 text-center text-lg-start p-5 mb-5"><img class="img-fluid rounded-2"
+              src="assets/img/newimgs/timeline.png" alt="" /></div>
+
+          <p class="text-center text-white w-75">A energia solar apresenta os menores impactos ambientais entre todas as
+            fontes energéticas disponíveis ao homem, sem emissão de poluentes na sua geração elétrica ou efeitos
+            negativos significantes ao meio ambiente na construção de grandes usinas, sendo estes ainda nulos em
+            pequenos e médios projetos de geração distribuída.</p>
+        </div>
+      </div><!-- end of .container-->
     </section>
 
-    <section class="third-section">
-        <div class="container">
-            <div class="title">
-                <h1> RECLAMAÇÕES DE REVENDAS EM SITES PARALELOS</h1>
-            </div>
-
-            <div class="complaint frist-row-complaint">
-                <div class="img">
-                    <img src="assets/complaint/1.png" alt="">
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://www.reclameaqui.com.br/viagogo/vendi-o-ingresso-de-um-show-e-nao-recebi-meu-pagamento_vTIUnv9BQR38-kfd/">Ler
-                            mais</a>
-                    </div>
-                </div>
-                <div class="img">
-                    <img src="assets/complaint/2.png" alt="">
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://www.reclameaqui.com.br/viagogo/ingresso-emitidos-errado_dx1wikDaxKOccpXT/">Ler
-                            mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="complaint">
-                <div class="img">
-                    <img src="assets/complaint/3.png" alt="">
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://www.reclameaqui.com.br/viagogo/paguei-o-ingresso-e-eles-me-bloquearam-em-todas-as-redes-sociais_cpolEMDPi4w8lMmU/">Ler
-                            mais</a>
-                    </div>
-                </div>
-                <div class="img">
-                    <img src="assets/complaint/4.png" alt="">
-                    <div class="footer">
-                        <a target="_blank"
-                            href="https://www.reclameaqui.com.br/ticketswap-brasil-servicos-de-ingressos/compramos-uma-meia-entrada-que-na-verdade-era-meio-idoso-sem-estar-dito_udYB_A3WTKprmGk5/">Ler
-                            mais</a>
-                    </div>
-                </div>
-            </div>
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <!-- <section class="bg-dark pt-6">
+      <div class="container">
+        <div class="col-md-6">
+          <h1 class="text-white fs-lg-5 fs-md-3 fs-2">An enterprise template to ramp up your company website</h1>
         </div>
-    </section>
-
-
-    <section class="fourth-section">
-        <div class="container">
-            <div class="title">
-                <h1> NO CENÁRIO ATUAL DE
-                    REVENDA DE INGRESSOS</h1>
-
-            </div>
-            <div class="bar"></div>
-
-            <div class="cards">
-                <div class="card">
-                    <div class="title-card">
-                        QUEM COMPRA
+        <div class="swiper mt-7">
+          <div class="swiper-container swiper-theme"
+            data-swiper='{"slidesPerView":1,"breakpoints":{"640":{"slidesPerView":1,"spaceBetween":10},"768":{"slidesPerView":2,"spaceBetween":20},"1025":{"slidesPerView":3,"spaceBetween":40}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"loop":true,"freeMode":true,"loopedSlides":3}'>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                <div class="d-flex flex-column justify-content-between h-100">
+                  <h4 class="text-black">“Buyer buzz partner network disruptive non-disclosure agreement business”</h4>
+                  <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/1.png" alt="" />
+                    <div class="text-black">
+                      <p class="mb-0 fw-bold text-dark">Albus Dumbledore</p><small>Manager @ Howarts</small>
                     </div>
-                    <p>Corre o risco de sofrer <span class="title-notes">golpe/fraude</span></p>
-                    <p>Fica <span class="title-notes">inseguro</span> sobre a sua entrada no evento</p>
+                  </div>
                 </div>
-
-                <div class="card">
-                    <div class="title-card">
-                        Ticketeiras E PRODUTORAS
+              </div>
+              <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                <div class="d-flex flex-column justify-content-between h-100">
+                  <h4 class="text-black">“Learning curve infrastructure value proposition advisor strategy user
+                    experience hypotheses investor.”</h4>
+                  <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/2.png" alt="" />
+                    <div class="text-black">
+                      <p class="mb-0 fw-bold text-dark">Severus Snape</p><small>Manager @ Slytherin</small>
                     </div>
-
-                    <p><span class="title-notes">Não monetizam</span> a revenda</p>
-
-                    <p><span class="title-notes">Não coletam</span> os dados das revendas</p>
-
-                    <p>Adquirem cada vez mais<span class="title-notes"> detratores da marca</span></p>
-
-                    <p>Enfrentam <span class="title-notes">riscos jurídicos</span></p>
-
+                  </div>
                 </div>
-
-                <div class="card">
-                    <div class="title-card">
-                        quem revende
+              </div>
+              <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                <div class="d-flex flex-column justify-content-between h-100">
+                  <h4 class="text-black">“Release facebook responsive web design business model canvas seed money
+                    monetization.”</h4>
+                  <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/3.png" alt="" />
+                    <div class="text-black">
+                      <p class="mb-0 fw-bold text-dark">Harry Potter</p><small>Team Leader @ Gryffindor</small>
                     </div>
-
-                    <p>Passa por <span class="title-notes">diversas negociações</span></p>
-
-                    <p>Corre o risco de sofrer<span class="title-notes">golpe/fraude</span></p>
-
-                    <p>Disponibiliza dados sensíveis para estranhos</p>
+                  </div>
                 </div>
+              </div>
+              <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                <div class="d-flex flex-column justify-content-between h-100">
+                  <h4 class="text-black">“Buyer buzz partner network disruptive non-disclosure agreement business”</h4>
+                  <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/1.png" alt="" />
+                    <div class="text-black">
+                      <p class="mb-0 fw-bold text-dark">Albus Dumbledore</p><small>Manager @ Howarts</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="swiper-button-next"><span class="fas fa-arrow-right fs-lg-3 fs-2"></span></div>
+          <div class="swiper-button-prev"><span class="fas fa-arrow-left fs-lg-3 fs-2"></span></div>
         </div>
-    </section>
+      </div>
+    </section> -->
+    <!-- ============================================-->
 
-
-    <section class="fifth-section">
-        <div class="container">
-            <div class="title">
-                <h1>Como funciona nossa solução</h1>
-
-            </div>
-            <div class="bar"></div>
-
-            <div class="content">
-                <div class="img">
-                    <img src="assets/fifthSection/Group 8.png" alt="">
-                </div>
-                <div class="description">
-                    <p>A partir da integração em nosso módulo, as ticketeiras que comercializam os ingressos primários
-                        poderão ofertar a o eração de revenda destes — o <span class="title-notes">valor</span> e o
-                        <span class="title-notes">momento</span> da revenda é <span class="title-notes">administrado
-                            pela própria ticketeira</span>.
-                    </p>
-                    <p> Essa revenda entre os clientes finais já acontece e não vai deixar de existir. O ponto é que, no
-                        atual cenário, todos os envolvidos ficam inseguros e insatisfeitos.
-                    </p>
-                    <p>
-                        Com a Iventou, os clientes finais irão comprar ou revender os ingressos <span
-                            class="title-notes">dentro das ticketeiras</span>,
-                        sob a <span class="title-notes">proteção</span> e <span class="title-notes">validação</span>
-                        destas.</p>
-
-                    <button class="btn"> <a href="mailto:joao@quartacasa.com.br">Entrar em contato</a></button>
-                </div>
-            </div>
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="vantagens-impetus">
+      <div class="container">
+        <div class="px-xl-8 px-md-5 px-3  mb-5">
+          <!-- <p class="text-gray fs-1">Our team</p> -->
+          <h1 class="text-black fs-lg-6 fs-md-4 fs-3 my-4">Todas as <span class="important">vantagens</span> financeiras
+            deste projeto</h1>
+          <!-- <p class="text-gray fs-1 w-lg-75">Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. Traction stock user experience deployment beta innovator incubator focus.</p> -->
         </div>
-    </section>
-
-
-    <section class="sixth-section">
-        <div class="container">
-            <div class="title">
-                <h1>Benefícios</h1>
+        <div class="row">
+          <div class="col-6">
+            <div class="row mt-5">
+              <div class="col-md-3"><img class="img-fluid" src="assets/img/newimgs/leao.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-black fs-2 fs-lg-3 my-2">Livre de IR</h1>
+                <p class="text-black fs-1">Rendimentos via SPE são tratados como distribuição de lucros, isentos de IR
+                  no Brasil seg﻿undo a Legislação Tributária Brasileira</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3"><img class="img-fluid" src="assets/img/newimgs/ampulheta.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-black fs-2 fs-lg-3 my-2">Payback curto</h1>
+                <p class="text-black fs-1">Em menos de 5 anos, o investimento se paga, destacando a alta rentabilidade e
+                  eficiência do projeto.</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3"><img class="img-fluid" src="assets/img/newimgs/progresso.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-black fs-2 fs-lg-3 my-2">Rentabilidade alta</h1>
+                <p class="text-black fs-1">Rentabilidade anual estimada em 18% líquido, maior do que os investimentos
+                  convencionais.</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3"><img class="img-fluid" src="assets/img/newimgs//eletricidade.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-black fs-2 fs-lg-3 my-2">Sem Fio B</h1>
+                <p class="text-black fs-1">Isenção de t﻿axas de Fio B
+                  garantidas pela Lei 14.300/22</p>
+              </div>
             </div>
 
-            <div class="content">
-                <div class="layer">
-                    <h1>Ticketeiras e produtoras</h1>
-                    <p>Monetizam a revenda, ou seja, <b>ganham mais de uma vez</b> no mesmo ingresso vendido</p>
-                    <p>Administram por <b>quanto</b> esse ingresso pode ser revendido</p>
-                    <p>Gerenciam <b>quando</b> esse ingresso será revendido</p>
-                    <p> <b>Absorvem os dados</b> do comportamento da revenda, para trazer toda a <b>segurança interna
-                            contra
-                            cambistas</b> e também para <b>melhorar a experiência da entrega</b> dos seus produtos e
-                        serviços aos seus
-                        clientes finais</p>
+          </div>
+          <div class="col-sm-12  col-lg-6 col-md-6">
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="row mt-2 d-flex justify-content-center">
+                <div class="col-md-4 col-lg-4 col-sm-12 card-impetus card-impetus-active  mt-2">
+                  <div class="icon">
+                    <i class="fa-solid fa-users fs-4"></i>
+                  </div>
+                  <div class="text mt-3"> <span class="important">COTAS</span> </div>
                 </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12 card-impetus card-impetus-error  mt-2">
+                  <i class="fa-solid fa-sack-dollar fs-4"></i>
+                  <div class="text mt-3"> CDI </div>
+                </div>
+
+                <div class=" col-md-4 col-lg-4 col-sm-12 card-impetus card-impetus-error  mt-2">
+                  <i class="fa-solid fa-sack-dollar fs-4"></i>
+                  <div class="text mt-3"> Poupança</div>
+                </div>
+              </div>
+
+              <div class="row mt-2 d-flex justify-content-center">
+                <div class="col-lg-4 col-md-3 col-sm-12 card-impetus card-impetus-active mt-2">
+                  <div class="icon">
+                    <i class="fa-solid fa-sack-dollar fs-4"></i>
+                  </div>
+                  <div class="text mt-3"> <span class="important">18% a.a</span> </div>
+                  <p>Liquido</p>
+                </div>
+
+                <div class=" col-lg-4 col-md-3 col-sm-12 card-impetus card-impetus-error  mt-2">
+                  <i class="fa-solid fa-sack-dollar fs-4"></i>
+                  <div class="text mt-3"> 12,65% a.a </div>
+                  <p>Bruto</p>
+                </div>
+
+                <div class=" col-lg-4 col-md-3 col-sm-12 card-impetus card-impetus-error  mt-2">
+                  <i class="fa-solid fa-sack-dollar fs-4"></i>
+                  <div class="text mt-3"> 5,16 a.a</div>
+                  <p>Liquido</p>
+
+                </div>
+              </div>
             </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 bg-dark rounded mt-5 p-3">
+              <img class="img-fluid" src="assets/img/newimgs/chart.png" alt="">
+            </div>
+          </div>
         </div>
-    </section>
+        <!-- <div class="row mt-7">
+          <div class="col-md-6 col-sm-6 mb-5 mb-lg-0 text-center text-sm-left"><a href="#"><img class="img-fluid"
+                src="assets/img/newimgs/payback.jpeg" alt="" /></a>
+            <h1 class="fs-3 mt-3">Payback simples estimado em <span class="important"> 4.7 anos</span></h1>
+          </div>
+          <div class="col-md-6 col-sm-6 mb-5 mb-lg-0 text-center text-sm-left"><a href="#"><img class="img-fluid"
+                src="assets/img/newimgs/ad123.jpeg" alt="" /></a>
+            <h1 class="fs-3 mt-3">Rendimento com <span class="important">isenção</span> do Imposto de Renda</h1>
+          </div>
+
+        </div>
+        <div class="row mt-7 ">
+          <div class="col-md-6 col-sm-6 mb-5 mb-lg-0 text-center text-sm-left"><a href="#"><img class="img-fluid"
+                src="assets/img/newimgs/payback.jpeg" alt="" /></a>
+            <h1 class="fs-3 mt-3"><span class="important">Isento</span> das taxas de Fio B</span></h1>
+          </div>
+          <div class="col-md-6 col-sm-6 mb-5 mb-lg-0 text-center text-sm-left"><a href="#"><img class="img-fluid"
+                src="assets/img/newimgs/rentabilidade.jpeg" alt="" /></a>
+            <h1 class="fs-3 mt-3">Rentabilidade de <span class="important">18% líquido</span> a.a</h1>
+          </div>
+        </div> -->
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
 
 
-    <section class="seven-section">
-        <div class="content">
-            <div class="layer">
-                <h1>Compradores e Revendedores</h1>
-                <p><b>Acabam com a insegurança</b> da revenda por vias paralelas.</p>
-                <p> <b>Acabam com a burocracia</b> para comprar ou revender. Com um clique, a operação está validada. 
+
+    <section class="bg-dark section-9">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-8">
+            <div class="row mt-5">
+              <div class="col-md-2"><img class="img-fluid" src="assets/img/newimgs/escudo-seguro.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-white fs-2 fs-lg-3 my-2"><span class="important">Investimento via SPE</span> </h1>
+                <p class="text-white fs-1">(Sociedade de Propósito Específico) é uma estrutura criada para um projeto
+                  específico, como usinas solares. Investir via SPE é seguro pois:
                 </p>
-                <p>Não precisam fornecer dados sensíveis para estranhos.</p>
-                <p><b>Acabam com a incerteza </b> da entrada nos eventos. </p>
+                <p><span class="important">Isola Riscos:</span> Protege outros investimentos.</p>
+                <p><span class="important">Transparência:</span> Monitoramento claro.</p>
+                <p><span class="important">Proteção Legal:</span> Ativos resguardados.</p>
+                <p><span class="important">Gestão Ágil:</span> Decisões rápidas.</p>
+              </div>
+
             </div>
+            <div class="row mt-5">
+              <div class="col-md-2"><img class="img-fluid" src="assets/img/newimgs/logo.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-white fs-2 fs-lg-3 my-2"><span class="important">Impetus Energy</span> </h1>
+                <p class="text-white fs-1">Com 12 anos de experiência, a Impetus Energy oferece soluções completas em
+                  energias renováveis, combinando economia, rentabilidade e sustentabilidade. Nossos serviços vão desde
+                  estudos técnicos até gestão de usinas fotovoltaicas e investimentos. Especialistas em EPC, O&M e
+                  sistemas OFF Grid</p>
+              </div>
+
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-2"><img class="img-fluid" src="assets/img/newimgs/contrato.png" alt="" /></div>
+              <div class="col-md-9 mt-2 mb-md-0">
+                <h1 class="text-white fs-2 fs-lg-3 my-2"><span class="important">PPA de 15 anos</span> </h1>
+                <p class="text-white fs-1">A usina possui um Acordo de Compra de Energia (PPA) de 15 anos, garantindo
+                  estabilidade e previsibilidade de receitas durante esse período. É um compromisso de longo prazo que
+                  assegura a venda da energia produzida.</p>
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+          <div class="col-6 img-security">
+            <!-- <img class="" src="assets/img/newimgs/tesouro-direto-100-por-cento-seguro-min.png"  alt=""> -->
+          </div>
+
         </div>
-        </div>
+      </div>
+      </div><!-- end of .container-->
     </section>
 
-    <div class="eighth-section">
-        <div class="header">
-            <div class="line"></div>
-            <div class="title">
-                <h1>Como fazer parte</h1>
+    <section class="diagrama">
+      <div class="container">
+        <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">Como funciona esse o modelo do <span
+            class="important">investimento</span>. </h2>
+        <div class="row mt-1 d-flex justify-content-center">
+          <img src="assets/img/newimgs/Esquema Engenho.png" alt="">
+          <button class="btn btn-success mt-3 text-black">Saiba mais aqui!</button>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="bg-dark">
+      <div class="container">
+        <h1 class="text-center text-white w-lg-75 mx-auto fs-xl-6 fs-lg-4 mb-3 fs-3">Oportunidade única para
+          Investidores:</h1>
+        <p class="text-center text-light">Faça parte de um projeto de energia solar com sólida projeção de retorno,
+          respaldado por mais de uma década de expertise da Impetus Energy, garantia de rentabilidade acima da média de
+          mercado e redução de impacto ambiental no mundo.</p>
+
+        <div class="row mt-5">
+          <div class="col-md-4 col-sm-6 text-center">
+            <h1 class="text-success fs-5 fs-md-6 fs-lg-7 fs-xl-9">100</h1>
+            <p class="text-light fs-2">Quantidade de cotas
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <h1 class="text-success fs-5 fs-md-6 fs-lg-7 fs-xl-9">1%</h1>
+            <p class="text-light fs-2">Percentual de participação por cota</p>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <h1 class="text-success fs-5 fs-md-6 fs-lg-7 fs-xl-9">R$ 27K</h1>
+            <p class="text-light fs-2">Valor da cota</p>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section>
+      <div class="container">
+        <div class="row mt-5 align-items-center">
+          <h2 class="fs-md-4 fs-3 pt-3">Dúvidas mais frequentes (FAQ)
+          </h2>
+
+          <div class="col-md-12">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="projeto-paracatu"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#projeto-paracatu-resposta" aria-expanded="false" aria-controls="projeto-paracatu">O que é o projeto da Impetus Energy em Paracatu - MG?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="projeto-paracatu" data-bs-parent="#accordionFlushExample" id="projeto-paracatu-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">É um projeto de energia solar com potência entre 500 kW - 700 kWp, projetado para gerar uma média de 91.000 kWh/mês, aproveitando o sol abundante de Paracatu.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="rentabilidade-esperada"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#rentabilidade-esperada-resposta" aria-expanded="false" aria-controls="rentabilidade-esperada">Qual é a rentabilidade esperada do projeto?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="rentabilidade-esperada" data-bs-parent="#accordionFlushExample" id="rentabilidade-esperada-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">Estimamos uma rentabilidade anual de aproximadamente 18% no primeiro ano, com potencial de crescimento contínuo à medida que a demanda por energia solar aumenta.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="spe-beneficios"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#spe-beneficios-resposta" aria-expanded="false" aria-controls="spe-beneficios">O que é uma SPE e por que é benéfico para os investidores?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="spe-beneficios" data-bs-parent="#accordionFlushExample" id="spe-beneficios-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">SPE significa Sociedade de Propósito Específico. É uma estrutura que garante foco exclusivo no projeto de energia solar, separando seus ativos e passivos de outras atividades. Isso oferece maior transparência, eficiência operacional e proteção ao investidor.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="por-tras-projeto"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#por-tras-projeto-resposta" aria-expanded="false" aria-controls="por-tras-projeto">Quem está por trás deste projeto?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="por-tras-projeto" data-bs-parent="#accordionFlushExample" id="por-tras-projeto-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">A equipe da Impetus Energy, composta por profissionais altamente qualificados com anos de experiência no setor de energia renovável.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="energia-solar-investimento"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#energia-solar-investimento-resposta" aria-expanded="false" aria-controls="energia-solar-investimento">Por que a energia solar é um bom investimento agora?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="energia-solar-investimento" data-bs-parent="#accordionFlushExample" id="energia-solar-investimento-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">A energia solar representa 6,9% da matriz elétrica brasileira e está em plena aceleração de crescimento. Com incentivos governamentais e uma crescente demanda, é uma oportunidade de investimento com grande potencial de retorno.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="parceiro-cotista"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#parceiro-cotista-resposta" aria-expanded="false" aria-controls="parceiro-cotista">Como posso me tornar um parceiro cotista?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="parceiro-cotista" data-bs-parent="#accordionFlushExample" id="parceiro-cotista-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">Entre em contato conosco através das informações fornecidas no rodapé da landing page, e nossa equipe fornecerá todas as informações necessárias para você se tornar um parceiro cotista.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="certificacao-regulamentacao"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#certificacao-regulamentacao-resposta" aria-expanded="false" aria-controls="certificacao-regulamentacao">O projeto tem alguma certificação ou regulamentação?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="certificacao-regulamentacao" data-bs-parent="#accordionFlushExample" id="certificacao-regulamentacao-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">O projeto opera como uma SPE, garantindo foco e transparência. Embora não seja regulamentado pela CVM, a estrutura da SPE oferece proteção e clareza para os investidores.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="comercializadora-ufv"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#comercializadora-ufv-resposta" aria-expanded="false" aria-controls="comercializadora-ufv">Quem é a comercializadora de energia da UFV ENGENHO?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="comercializadora-ufv" data-bs-parent="#accordionFlushExample" id="comercializadora-ufv-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">A comercializadora de energia atua como locatária da usina e possui um PPA (Power Purchase Agreement) de 15 anos com a usina.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="ppa"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#ppa-resposta" aria-expanded="false" aria-controls="ppa">O que é um PPA?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="ppa" data-bs-parent="#accordionFlushExample" id="ppa-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">PPA (Power Purchase Agreement) é um contrato de compra de energia. No caso da UFV ENGENHO, há um acordo de 15 anos com a CONCESSIONÁRIA (CEMIG) para fornecer energia.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="ppa-15-anos"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#ppa-15-anos-resposta" aria-expanded="false" aria-controls="ppa-15-anos">Por que um PPA de 15 anos é importante?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="ppa-15-anos" data-bs-parent="#accordionFlushExample" id="ppa-15-anos-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">Um PPA de 15 anos garante uma fonte de receita estável para a usina durante esse período. Isso proporciona previsibilidade de retorno sobre o investimento para os investidores.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="administradores-projeto"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#administradores-projeto-resposta" aria-expanded="false" aria-controls="administradores-projeto">Quem escolhe os administradores do projeto?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="administradores-projeto" data-bs-parent="#accordionFlushExample" id="administradores-projeto-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">Os cotistas, por meio da maioria absoluta, escolherão os administradores do projeto.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="impetus-energy"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#impetus-energy-resposta" aria-expanded="false" aria-controls="impetus-energy">O que é a IMPETUS ENERGY?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="impetus-energy" data-bs-parent="#accordionFlushExample" id="impetus-energy-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">A IMPETUS ENERGY possui mais de 12 anos de experiência e se dedica a elaborar e entregar soluções em Energias Renováveis. Ela oferece desde estudo técnico e ambiental até a implantação e gestão de usinas fotovoltaicas.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="servicos-impetus-energy"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#servicos-impetus-energy-resposta" aria-expanded="false" aria-controls="servicos-impetus-energy">Quais são os serviços oferecidos pela IMPETUS ENERGY?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="servicos-impetus-energy" data-bs-parent="#accordionFlushExample" id="servicos-impetus-energy-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">A IMPETUS ENERGY oferece soluções completas, incluindo estudo técnico e ambiental, desenvolvimento da planta fotovoltaica, modelagem jurídica e financeira, implantação e gestão das usinas, e garantia de alta rentabilidade para os investidores.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="utilizacao-energia-ufv"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#utilizacao-energia-ufv-resposta" aria-expanded="false" aria-controls="utilizacao-energia-ufv">Como a energia gerada pela UFV ENGENHO é utilizada?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="utilizacao-energia-ufv" data-bs-parent="#accordionFlushExample" id="utilizacao-energia-ufv-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">A energia gerada pela UFV ENGENHO é injetada na rede, e a CONCESSIONÁRIA (CEMIG) a utiliza com base no PPA estabelecido.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header border-bottom" id="retorno-investidores"><button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#retorno-investidores-resposta" aria-expanded="false" aria-controls="retorno-investidores">Como o projeto garante retorno para os investidores?</button></h2>
+                <div class="accordion-collapse collapse" aria-labelledby="retorno-investidores" data-bs-parent="#accordionFlushExample" id="retorno-investidores-resposta">
+                  <div class="accordion-body">
+                    <p class="mb-0">Através do PPA de 15 anos com a CONCESSIONÁRIA (CEMIG), a usina tem garantia de venda de energia, assegurando receitas estáveis e previsíveis para os investidores.</p>
+                  </div>
+                </div>
+              </div>
+              
+
+
+
+
             </div>
-            <div class="line"></div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+    <section>
+      <div class="container">
+        <div class="row button-cta">
+          <button class="btn btn-success w-50 text-black">SEJA UM INVESTIDOR AGORA!</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pt-0">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-sm-12"><a href="index.html"><img class="img-fluid mt-5 mb-4"
+                src="assets/img/logos/horizontalR_preto.png" width="200" alt="" /></a>
+            <p class="w-lg-75 text-gray">"Confia no Senhor as tuas obras e teus pensamentos serão estabelecidos."
+              Provérbios 16:03" </p>
+          </div>
 
         </div>
-
-        <div class="content-eighth">
-            <div class="cart-circle">
-                <div class="img"><img src="assets/eighthSection/Ellipse 1.png" alt=""></div>
-                <div class="footer">
-                    Ticketeira realiza a integração na API da Iventou
-                </div>
-            </div>
-
-            <div class="cart-circle">
-                <div class="img"><img src="assets/eighthSection/Ellipse 2.png" alt=""></div>
-                <div class="footer">
-                    Ajustes da interface
-                    do módulo Iventou na Ticketeira
-                </div>
-            </div>
+        <p class="text-gray">All rights reserved.</p>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
 
 
-            <div class="cart-circle">
-                <div class="img"><img src="assets/eighthSection/Ellipse 3.png" alt=""></div>
-                <div class="footer">
-                    Configuração do evento e ingresso
-                </div>
-            </div>
 
-            <div class="cart-circle">
-                <div class="img"><img src="assets/eighthSection/Ellipse 4.png" alt=""></div>
-                <div class="footer">
-                    Pronto, os ingressos já podem ser comercializados.
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
-
-
-    <footer>
-        <div class="line"></div>
-        <div class="button">
-            <button class="btn"><a href="mailto:joao@quartacasa.com.br">Entrar em
-                contato</a></button>
-            <!-- <button class="btn">Entrar em contato</button> -->
-        </div>
-        <div class="line"></div>
-    </footer>
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/anchorjs/anchor.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/prism/prism.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

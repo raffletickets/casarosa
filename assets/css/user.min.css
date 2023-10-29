@@ -1,0 +1,129 @@
+.logo-impetus{
+    width: 500px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+.btn-success{
+    background-color: #93dd57;
+    border-color: #93dd57;
+} 
+
+.important {
+    font-weight: 900;
+    color: #93dd57;
+}
+
+.btn-success:hover{
+    background-color: #77b742;
+    border-color: #77b742;
+} 
+
+
+.slide-impetus img{
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.vantagens-impetus .img-chart{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*# sourceMappingURL=user.min.css.map */
+
+.card-impetus{
+    background-color: hsl(209, 92%, 10%);
+    max-width: 160px;
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 16px;
+}
+
+.card-impetus p{
+    font-size: 12px;
+}
+.card-impetus-active{
+    box-shadow: 0px 10px 15px -3px #93dd57;
+}
+
+.card-impetus-error{
+    box-shadow: 0px 10px 15px -3px #e43500;
+}
+
+.img-chart {
+    width: 100%;
+    height: 100%;
+}
+
+.section-9 img{
+    width: 100px;
+}
+
+.diagrama button{
+    width: 300px !important;
+}
+
+.natural{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-natural{
+    width: 80%;
+    font-size: 30px;
+}
+.button-cta {
+    display: flex;
+    justify-content: center;
+}
+.button-cta button{
+    width: 40%;
+    animation: pulse 2s infinite;
+}
+
+.img-security img{
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    opacity: 340%;
+    
+}
+
+.section-9{
+    background-image: url('./../img/newimgs/123\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
