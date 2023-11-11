@@ -2,8 +2,12 @@
     width: 500px;
 }
 
-.mobile{
-    display: none !important;
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: initial;
 }
 
 h1 {
@@ -141,6 +145,15 @@ h1 {
 
 
 @media (max-width: 539.98px) {
+
+    .mobile {
+        display: initial !important;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
     .section-conheca-investimento button {
         width: 100%;
         margin-bottom: 60px;
@@ -164,35 +177,32 @@ h1 {
         width: 40%;
     }
 
-    .desktok{
-        display: none;
-    }
 
-    .mobile{
-        display: initial;
-    }
 
-    .row-card-impetus{
+
+    .row-card-impetus {
         display: flex;
         flex-direction: column;
         padding: 20px;
     }
-    .row-card-impetus .card-impetus{
+
+    .row-card-impetus .card-impetus {
         width: 100%;
         min-width: 100%;
     }
 
-    .section-9 .col-8{
+    .section-9 .col-8 {
         width: 100%;
-        
+
     }
-    .section-9{
+
+    .section-9 {
         background-image: none;
     }
 
-    .button-cta button{
+    .button-cta button {
         min-width: 100% !important;
     }
 
-    
+
 }
