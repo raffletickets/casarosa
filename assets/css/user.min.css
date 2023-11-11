@@ -115,6 +115,10 @@ h1 {
 
 }
 
+.mobile{
+    display: none;
+}
+
 @keyframes pulse {
     0% {
         transform: scale(0.95);
@@ -160,6 +164,10 @@ h1 {
 
     .desktok{
         display: none;
+    }
+
+    .mobile{
+        display: initial;
     }
 
     .row-card-impetus{
